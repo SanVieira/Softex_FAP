@@ -1,0 +1,7 @@
+var numero;
+
+numero = parseFloat(prompt("Insira um número: "));
+
+if (numero % 2 === 0) alert("O número " + numero + " é PAR.");
+else if (numero % 2 === 1) alert("O número " + numero + " é ÍMPAR.");
+else alert("Entrada inválida. Tente novamente!");
