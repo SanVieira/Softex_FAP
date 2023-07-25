@@ -1,0 +1,11 @@
+var prova1, prova2, prova3;
+const peso2 = 2, peso3 = 3, peso5 = 5;
+var mediaFinal;
+
+prova1 = parseFloat(prompt("Insira a nota da primeira prova: "));
+prova2 = parseFloat(prompt("Insira a nota da segunda prova: "));
+prova3 = parseFloat(prompt("Insira a nota da terceira prova: "));
+
+mediaFinal = ((prova1 * peso2) + (prova2 * peso3) + (prova3 * peso5)) / (peso2 + peso3 + peso5);
+
+alert("A média final desse aluno foi: " + mediaFinal);
