@@ -1,0 +1,6 @@
+var nome, sobrenome;
+
+nome = prompt("Informe seu nome: ");
+sobrenome = prompt("Infome seu sobrenome: ")
+
+alert("Olá, " + nome + " " + sobrenome + "! Como você está?");
