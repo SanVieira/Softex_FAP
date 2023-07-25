@@ -1,0 +1,22 @@
+var soma, diferenca, divisao, multiplicacao;
+var numero1, numero2;
+var opcao;
+
+numero1 = parseFloat(prompt("Insira o primeiro número: "));
+numero2 = parseFloat(prompt("Insira o segundo número: "));
+
+opcao = prompt("Escolha a operação ( + | - | * | / ): ");
+
+if (opcao === '+') {
+    soma = numero1 + numero2;
+    alert("Resultado da Soma: " + soma);
+} else if (opcao === '-') {
+    diferenca = numero1 - numero2;
+    alert("Resultado da Subtração: " + diferenca);
+} else if (opcao === '*') {
+    multiplicacao = numero1 * numero2;
+    alert("Resultado da Subtração: " + multiplicacao);
+} else if (opcao === '/') {
+    divisao = numero1 / numero2;
+    alert("Resultado da Subtração: " + divisao);
+} else alert("Operação inválida. Tente novamente!");
