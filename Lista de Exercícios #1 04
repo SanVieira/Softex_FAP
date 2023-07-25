@@ -8,4 +8,5 @@ prova3 = parseFloat(prompt("Insira a nota da terceira prova: "));
 
 mediaFinal = ((prova1 * peso2) + (prova2 * peso3) + (prova3 * peso5)) / (peso2 + peso3 + peso5);
 
-alert("A média final desse aluno foi: " + mediaFinal);
+if (mediaFinal >= 7) alert("Parabéns por média! NOTA: " + mediaFinal);
+else alert("Aluno em recuperação! NOTA: " + mediaFinal);
