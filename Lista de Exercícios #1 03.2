@@ -1,0 +1,34 @@
+var soma, diferenca, divisao, multiplicacao;
+var numero1, numero2;
+var opcao;
+
+numero1 = parseFloat(prompt("Insira o primeiro número: "));
+numero2 = parseFloat(prompt("Insira o segundo número: "));
+
+opcao = prompt("Escolha a operação ( + | - | * | / ): ");
+
+switch (opcao) {
+    case '+':
+        soma = numero1 + numero2;
+        alert("Resultado da Soma: " + soma);
+        break;
+        
+    case '-':
+        diferenca = numero1 - numero2;
+        alert("Resultado da Subtração: " + diferenca);
+        break;
+        
+    case '*':
+        multiplicacao = numero1 * numero2;
+        alert("Resultado da Subtração: " + multiplicacao);
+        break;
+        
+    case '/':
+        divisao = numero1 / numero2;
+        alert("Resultado da Subtração: " + divisao);
+        break;
+        
+    default: 
+        alert("Operação inválida. Tente novamente!");
+        break;
+}
