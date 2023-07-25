@@ -1,0 +1,10 @@
+var alturaCaixa, larguraCaixa, profundidadeCaixa;
+var volumeCaixa, volumeLitros;
+
+alturaCaixa = parseFloat(prompt("Insira altura da caixa (cm): "));
+larguraCaixa = parseFloat(prompt("Insira a largura da caixa (cm): "));
+profundidadeCaixa = parseFloat(prompt("Insira a profundidade da caixa (cm): "));
+
+volumeCaixa = alturaCaixa * larguraCaixa * profundidadeCaixa;
+volumeLitros = volumeCaixa / 1000;
+alert("Volume da Caixa: " + volumeCaixa + "cm³ / " + volumeLitros + "l");
