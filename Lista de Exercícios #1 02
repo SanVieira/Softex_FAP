@@ -1,0 +1,8 @@
+var numero1, numero2, diferenca;
+
+numero1 = parseInt(prompt("Insira o primeiro número: "));
+numero2 = parseInt(prompt("Insira o segundo número: "));
+diferenca = numero1 - numero2;
+
+alert(numero1 + " - " + numero2  + " = " + diferenca);
+alert("A diferença entre os valores é de: " + Math.abs(diferenca));
